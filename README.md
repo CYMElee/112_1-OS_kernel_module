@@ -2,9 +2,10 @@
 
 this is a kernel modules ,thak can it can register a character device,an read a list of system info
 1:on the user space compile the kfetch.c and kfetch.h 
-2:using gcc -o kfetch kfetch.c
+2:using gcc -o kfetch kfetch.c to compile the c code
 4:following the procedure:
 (a):>>make
+        make the module
 (b):>>make load
 (3):>>sudo ./kfetch -(optional)
 ```.c
